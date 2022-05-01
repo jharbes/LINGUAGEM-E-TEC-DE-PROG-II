@@ -1,0 +1,13 @@
+package controller;
+import java.util.ArrayList;
+
+import model.Default;
+import model.Publicacao;
+
+public class Controller {
+
+	public static void main(String[] args) {
+		Default.controller();
+		ArrayList<Publicacao> publicacao = ArrayList<Publicacao>();
+	}
+}

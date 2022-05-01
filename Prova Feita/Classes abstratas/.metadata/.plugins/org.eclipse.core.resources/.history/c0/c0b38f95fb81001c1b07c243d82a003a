@@ -1,0 +1,32 @@
+package model;
+
+public class Barco extends Veiculo {
+	public String registro_embarcacao;
+
+	@Override
+	public String Ligar() {
+		return "Barco ligando";
+	}
+
+	@Override
+	public String Desligar() {
+		return "Barco desligando";
+	}
+
+	@Override
+	public String MoverFrente() {
+		return "Barco movendo pra frente";
+	}
+
+	@Override
+	public String MoverRe() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String Parar() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

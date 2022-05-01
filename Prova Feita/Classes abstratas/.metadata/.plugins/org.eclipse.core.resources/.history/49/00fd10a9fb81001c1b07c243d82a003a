@@ -1,0 +1,34 @@
+package model;
+
+public class Aviao extends Veiculo {
+	public String registro_aeronautico;
+
+	@Override
+	public String Ligar() {
+		return "Avião ligando";
+	}
+
+	@Override
+	public String Desligar() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String MoverFrente() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String MoverRe() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String Parar() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

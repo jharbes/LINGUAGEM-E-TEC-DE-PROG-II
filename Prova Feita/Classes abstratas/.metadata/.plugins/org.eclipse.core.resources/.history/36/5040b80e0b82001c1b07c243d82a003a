@@ -1,0 +1,7 @@
+package model;
+
+public class Artigo_revista extends Publicacao {
+	public String nome_periodico;
+	public int volume;
+	public int numero;
+}

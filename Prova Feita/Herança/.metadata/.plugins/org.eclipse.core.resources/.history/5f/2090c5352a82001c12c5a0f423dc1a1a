@@ -1,0 +1,12 @@
+package model;
+
+public class Automovel extends Veiculo {
+	public int renavam;
+	public String placa;
+	
+	public Automovel(int renavam, String placa) {
+		super();
+		this.renavam = renavam;
+		this.placa = placa;
+	}
+}

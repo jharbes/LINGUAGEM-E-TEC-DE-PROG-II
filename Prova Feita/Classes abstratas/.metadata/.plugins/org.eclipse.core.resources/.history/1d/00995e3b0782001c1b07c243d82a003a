@@ -1,0 +1,6 @@
+package model;
+
+public class Pesquisa {
+	public String nome;
+	public String descricao;
+}

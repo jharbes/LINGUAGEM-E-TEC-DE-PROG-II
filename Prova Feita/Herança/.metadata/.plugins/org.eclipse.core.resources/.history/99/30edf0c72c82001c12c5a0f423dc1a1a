@@ -1,0 +1,16 @@
+package model;
+
+public class Default {
+
+	public Barco Cria_barco() {
+		return new Barco(false, false, "543126789");
+	}
+	
+	public Aviao Cria_aviao() {
+		return new Aviao(false, false, "312854679");
+	}
+
+	public Automovel Cria_Automovel() {
+		return new Automovel(false, false, 134521976, "GYT 4B64");
+	}
+}

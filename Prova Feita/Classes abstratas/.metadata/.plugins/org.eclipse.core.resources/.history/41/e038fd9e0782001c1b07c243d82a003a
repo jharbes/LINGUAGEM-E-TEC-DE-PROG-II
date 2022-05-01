@@ -1,0 +1,8 @@
+package model;
+
+public class Coordenador {
+	public String nome;
+	public String email;
+	public String instituicao_origem;
+	public String endereco_contato;
+}

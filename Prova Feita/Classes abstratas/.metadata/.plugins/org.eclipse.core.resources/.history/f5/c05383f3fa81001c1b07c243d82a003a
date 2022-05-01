@@ -1,0 +1,5 @@
+package model;
+
+public class Barco {
+	public String registro_embarcacao;
+}

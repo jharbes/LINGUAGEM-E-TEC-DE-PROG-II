@@ -1,0 +1,42 @@
+package model;
+
+public class Automovel extends Veiculo {
+	public int renavam;
+	public String placa;
+	
+	
+	
+	
+
+	public void Frear() {
+		
+	}
+	
+	public void PassarMarcha() {
+		
+	}
+
+	@Override
+	public void Ligar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void Desligar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void MoverFrente() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void MoverRe() {
+		// TODO Auto-generated method stub
+		
+	}
+}

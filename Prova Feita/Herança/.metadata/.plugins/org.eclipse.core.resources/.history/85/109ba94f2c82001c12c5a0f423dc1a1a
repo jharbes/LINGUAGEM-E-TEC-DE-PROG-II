@@ -1,0 +1,16 @@
+package model;
+
+public class Default {
+
+	public Barco Cria_barco() {
+		return new Barco(false, false, "543126789");
+	}
+	
+	public Barco Cria_aviao() {
+		
+	}
+
+	public Barco Cria_Automovel() {
+	
+	}
+}

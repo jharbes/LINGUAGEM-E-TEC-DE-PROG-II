@@ -1,0 +1,16 @@
+package model;
+
+public class Default {
+
+	public Barco Cria_barco() {
+		
+	}
+	
+	public Barco Cria_aviao() {
+		
+	}
+
+	public Barco Cria_barco() {
+	
+	}
+}

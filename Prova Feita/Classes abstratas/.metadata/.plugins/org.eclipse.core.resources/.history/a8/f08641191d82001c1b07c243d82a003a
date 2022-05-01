@@ -1,0 +1,21 @@
+package model;
+
+public class Teses extends Publicacao {
+	public String grau;
+	public String instituicao;
+
+	public Teses(String titulo, int ano, String[] autores, String grau, String instituicao) {
+		super(titulo, ano, autores);
+		this.grau = grau;
+		this.instituicao = instituicao;
+	}
+
+	@Override
+	public void imprimirInformacoes() {
+		System.out.println("+------------- Tese ------------+");
+		System.out.println("| Título: "+this.titulo);
+		System.out.println("| Ano: "+this.ano);
+		System.out.println("| Autores: "+autores_aux);
+		System.out.println("+-------------------------------+");
+	}
+}

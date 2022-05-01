@@ -1,0 +1,6 @@
+package model;
+
+public class Automovel extends Veiculo {
+	public int renavam;
+	public String placa;
+}

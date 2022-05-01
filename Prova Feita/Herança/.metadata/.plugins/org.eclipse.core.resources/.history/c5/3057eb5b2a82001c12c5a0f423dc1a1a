@@ -1,0 +1,10 @@
+package model;
+
+public class Barco extends Veiculo {
+	public String registro_embarcacao;
+
+	public Barco(String registro_embarcacao) {
+		super();
+		this.registro_embarcacao = registro_embarcacao;
+	}
+}

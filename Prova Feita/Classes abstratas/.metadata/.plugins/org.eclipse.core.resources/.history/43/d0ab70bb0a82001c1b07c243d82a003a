@@ -1,0 +1,10 @@
+package model;
+
+public class Livro extends Publicacao {
+
+	@Override
+	public String imprimirInformacoes() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

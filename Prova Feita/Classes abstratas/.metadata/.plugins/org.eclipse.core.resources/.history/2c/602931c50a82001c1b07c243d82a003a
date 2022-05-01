@@ -1,0 +1,12 @@
+package model;
+
+public class Teses extends Publicacao {
+	public String grau;
+	
+
+	@Override
+	public String imprimirInformacoes() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

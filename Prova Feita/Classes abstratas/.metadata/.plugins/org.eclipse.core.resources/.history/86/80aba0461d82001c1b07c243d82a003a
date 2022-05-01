@@ -1,0 +1,31 @@
+package model;
+
+public class Artigo_revista extends Publicacao {
+	public String nome_periodico;
+	public int volume;
+	public int numero;
+	
+	public Artigo_revista(String titulo, int ano, String[] autores, String nome_periodico, int volume, int numero) {
+		super(titulo, ano, autores);
+		this.nome_periodico = nome_periodico;
+		this.volume = volume;
+		this.numero = numero;
+	}
+
+	@Override
+	public void imprimirInformacoes() {
+		String autores_aux = this.autores[0];
+		
+		if (this.autores.length>1)
+			for(int i=1; i < this.autores.length; i++)
+				autores_aux += ", "+this.autores[i];
+		
+		System.out.println("+------ Artigo de Revista ------+");
+		System.out.println("| Título: "+this.titulo);
+		System.out.println("| Ano: "+this.ano);
+		System.out.println("| Autores: "+autores_aux);
+		System.out.println("| Nome periódico: "+this.nome_periodico);
+		System.out.println("| Volume: "+this.volume);
+		System.out.println("+-------------------------------+");
+	}
+}

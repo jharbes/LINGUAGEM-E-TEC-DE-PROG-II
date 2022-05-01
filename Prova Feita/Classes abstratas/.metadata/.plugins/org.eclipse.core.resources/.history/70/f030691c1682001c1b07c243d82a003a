@@ -1,0 +1,13 @@
+package model;
+
+public class Artigo_revista extends Publicacao {
+	public String nome_periodico;
+	public int volume;
+	public int numero;
+	
+	@Override
+	public String imprimirInformacoes() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

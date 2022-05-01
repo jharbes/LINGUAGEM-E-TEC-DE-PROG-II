@@ -1,0 +1,7 @@
+package model;
+
+public class Publicacao {
+	public String titulo;
+	public String ano;
+	
+}

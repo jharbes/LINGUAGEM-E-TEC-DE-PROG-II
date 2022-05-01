@@ -1,0 +1,5 @@
+package model;
+
+public class Aviao {
+	public String registro_aeronautico;
+}

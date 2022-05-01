@@ -1,0 +1,9 @@
+package model;
+
+public abstract class Veiculo {
+	
+	public abstract void Ligar();
+	public abstract void Desligar();
+	public abstract void MoverFrente();
+	public abstract void MoverRe();
+}

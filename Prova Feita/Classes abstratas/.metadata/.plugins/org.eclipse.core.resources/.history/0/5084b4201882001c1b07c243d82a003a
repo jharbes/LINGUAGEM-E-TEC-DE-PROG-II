@@ -1,0 +1,18 @@
+package model;
+
+public class Livro extends Publicacao {
+	
+	public String editora;
+	public String local_publicacao;
+	
+	public Livro(String titulo, int ano, String[] autores) {
+		super(titulo, ano, autores);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String imprimirInformacoes() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

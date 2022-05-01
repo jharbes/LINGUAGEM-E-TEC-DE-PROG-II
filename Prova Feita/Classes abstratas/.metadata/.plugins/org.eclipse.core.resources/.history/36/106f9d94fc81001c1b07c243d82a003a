@@ -1,0 +1,29 @@
+package controller;
+
+import java.util.ArrayList;
+import model.*;
+
+public class Controller {
+
+	public static void main(String[] args) {
+		ArrayList<Veiculo> lista = new ArrayList<Veiculo>();
+		
+		Automovel aut = new Automovel("PBA2A19","6543813163849");
+		lista.add(aut);
+		
+		Aviao aviao = new Aviao("7324569");
+		lista.add(aviao);
+		
+		Barco barco = new Barco("646HJAF6498");
+		lista.add(barco);
+		
+		for (Animal item:lista) {
+			if (item.getClass() == eagle.getClass()) System.out.println(((Eagle) item).Voar());
+			if (item.getClass() == dog.getClass()) System.out.println(((Dog) item).Latir());
+			System.out.println(item.Respirar());
+			System.out.println(item.Dormir());
+			System.out.println(item.Comer());
+			System.out.println(item.Andar()+"\n");
+		}
+	}
+}

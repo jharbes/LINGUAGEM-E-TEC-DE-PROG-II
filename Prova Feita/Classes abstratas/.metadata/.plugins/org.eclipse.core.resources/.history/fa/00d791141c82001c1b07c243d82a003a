@@ -1,0 +1,19 @@
+package model;
+
+public class Livro extends Publicacao {
+	
+	public String editora;
+	public String local_publicacao;
+
+	public Livro(String titulo, int ano, String[] autores, String editora, String local_publicacao) {
+		super(titulo, ano, autores);
+		this.editora = editora;
+		this.local_publicacao = local_publicacao;
+	}
+
+	@Override
+	public void imprimirInformacoes() {
+		System.out.println("+----------- Artigo de Revista -----------+");
+		System.out.println("+-----------------------------------------+");
+	}
+}

@@ -1,0 +1,18 @@
+package model;
+
+public class Teses extends Publicacao {
+	public String grau;
+	public String instituicao;
+
+	public Teses(String titulo, String ano, String[] autores, String grau, String instituicao) {
+		super(titulo, ano, autores);
+		this.grau = grau;
+		this.instituicao = instituicao;
+	}
+
+	@Override
+	public String imprimirInformacoes() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

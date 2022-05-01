@@ -1,0 +1,8 @@
+package model;
+
+public class Default {
+	public static void controller() {
+		Coordenador cod = new Coordenador("José", "jose@email.com", "UERJ", "(21) 5461-8531", "Historiador");
+		Pesquisa pesquisa = new Pesquisa();
+	}
+}

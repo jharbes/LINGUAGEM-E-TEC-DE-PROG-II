@@ -1,0 +1,31 @@
+package model;
+
+public class Automovel extends Veiculo {
+	public String placa;
+	public String renavam;
+	@Override
+	public String Ligar() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String Desligar() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String MoverFrente() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String MoverRe() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String Parar() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

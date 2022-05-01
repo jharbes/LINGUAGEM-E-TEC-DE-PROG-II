@@ -1,0 +1,9 @@
+package model;
+
+public abstract class Publicacao {
+	public String titulo;
+	public String ano;
+	public String [] autores;
+	
+	public abstract String imprimirInformacoes();
+}

@@ -1,0 +1,45 @@
+package model;
+
+public class Automovel extends Veiculo {
+	public int renavam;
+	public String placa;
+
+	public Automovel(boolean ligado, boolean movimentando, int renavam, String placa) {
+		super(ligado, movimentando);
+		this.renavam = renavam;
+		this.placa = placa;
+	}
+
+	public void Frear() {
+		
+	}
+	
+	public boolean PassarMarcha() {
+		if(this.movimentando && this.ligado) return true;
+		else return false;
+	}
+
+	@Override
+	public void Ligar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void Desligar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void MoverFrente() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void MoverRe() {
+		// TODO Auto-generated method stub
+		
+	}
+}

@@ -1,0 +1,18 @@
+package model;
+
+public class Artigo_revista extends Publicacao {
+	public String nome_periodico;
+	public int volume;
+	public int numero;
+	
+	public Artigo_revista(String titulo, int ano, String[] autores) {
+		super(titulo, ano, autores);
+		// TODO Auto-generated constructor stub
+	}
+	
+	@Override
+	public String imprimirInformacoes() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

@@ -1,0 +1,145 @@
+package controller;
+
+import java.util.Scanner;
+import model.*;
+
+public class Controller {
+	
+	public static void main(String args []) {
+		Barco barco 		= Default.Cria_barco();
+		Aviao aviao 		= Default.Cria_aviao();
+		Automovel automovel = Default.Cria_Automovel();
+		
+		@SuppressWarnings("resource")
+		Scanner ler = new Scanner(System.in);
+		int op;
+		
+		do {
+			mostrar_menu();
+			op = ler.nextInt();
+			switch (op) {
+		
+			// ************** BARCO **************
+				case 1: 
+					automovel.Ligar();
+					System.out.println("\nO automóvel foi ligado.\n");
+				break;
+				case 2: 
+					automovel.Desligar();
+					System.out.println("\nO automóvel foi desligado.\n");
+				break;
+				case 3: 
+					if(automovel.MoverFrente())
+						System.out.println("\nO automóvel foi movido pra frente.\n");
+					else
+						System.out.println("\nO AUTOMÓVEL ESTÁ DESLIGADO, LIGUE-O PRIMEIRO.\n");
+				break;
+				case 4: 
+					if(automovel.MoverRe())
+						System.out.println("\nO automóvel moveu-se de ré.\n");
+					else
+						System.out.println("\nO AUTOMÓVEL ESTÁ DESLIGADO, LIGUE-O PRIMEIRO.\n");
+				break;
+				case 5: 
+					if(automovel.PassarMarcha())
+						System.out.println("\nO automóvel trocou de marcha.\n");
+					else
+						System.out.println("\nO AUTOMÓVEL ESTÁ PARADO, LIGUE-O E MOVIMENTE-O PRIMEIRO.\n");
+				break;
+				case 6: 
+					automovel.Frear();
+					System.out.println("\nO automóvel foi freado e seu movimento parou.\n");
+				break;
+				
+				// ************** BARCO **************		
+				case 7: 
+					barco.Ligar();
+					System.out.println("\nO barco foi ligado.\n");
+				break;
+				case 8: 
+					barco.Desligar();
+					System.out.println("\nO barco foi desligado.\n");
+				break;
+				case 9: 
+					if(barco.MoverFrente())
+						System.out.println("\nO barco foi movido pra frente.\n");
+					else
+						System.out.println("\nO BARCO ESTÁ DESLIGADO, LIGUE-O PRIMEIRO.\n");
+				break;
+				case 10: 
+					if(barco.MoverRe())
+						System.out.println("\nO barco moveu-se de ré.\n");
+					else
+						System.out.println("\nO BARCO ESTÁ DESLIGADO, LIGUE-O PRIMEIRO.\n");
+				break;
+				case 11: 
+					if(barco.Navegar())
+						System.out.println("\nO barco começou a navegar.\n");
+					else
+						System.out.println("\nO BARCO ESTÁ PARADO, LIGUE-O E MOVIMENTE-O PRIMEIRO PARA ENTÃO NAVEGAR.\n");
+				break;
+				case 12: 
+					barco.Ancorar();
+					System.out.println("\nO barco foi ancorado e seu movimento parou.\n");
+				break;
+				
+				// ************** AVIÃO **************
+				case 13: 
+					aviao.Ligar();
+					System.out.println("\nO avião foi ligado.\n");
+				break;
+				case 14: 
+					aviao.Desligar();
+					System.out.println("\nO avião foi desligado.\n");
+				break;
+				case 15: 
+					if(aviao.MoverFrente())
+						System.out.println("\nO avião foi movido pra frente.\n");
+					else
+						System.out.println("\nO AVIÃO ESTÁ DESLIGADO, LIGUE-O PRIMEIRO.\n");
+				break;
+				case 16: 
+					if(barco.MoverRe())
+						System.out.println("\nO avião moveu-se de ré.\n");
+					else
+						System.out.println("\nO AVIÃO ESTÁ DESLIGADO, LIGUE-O PRIMEIRO.\n");
+				break;
+				case 17: 
+					if(aviao.Decolar())
+						System.out.println("\nO avião decolou.\n");
+					else
+						System.out.println("\nO AVIÃO ESTÁ PARADO, LIGUE-O E MOVIMENTE-O PRIMEIRO PARA ENTÃO DECOLAR.\n");
+				break;
+				case 18: 
+					aviao.Pousar();
+					System.out.println("\nO avião pousou e seu movimento parou.\n");
+				break;
+
+				case 0:
+					System.out.println("\n+-=-=-=-=-=-=-=-=-=-=-=-=-=-=+");
+					System.out.println("|     PROGRAMA ENCERRADO     |");
+					System.out.println("+-=-=-=-=-=-=-=-=-=-=-=-=-=-=+\n");
+					break;
+				default:
+					System.out.println("\n+-=-=-=-=-=-=-=-=-=-=-=-=-=-=+");
+					System.out.println("|       OPÇÃO INVÁLIDA       |");
+					System.out.println("+-=-=-=-=-=-=-=-=-=-=-=-=-=-=+\n");
+					break;
+			}
+		}while(op!=0);
+			
+	}
+	
+	public static void mostrar_menu() {
+		System.out.println("+----------------------------------------------------------------------------+");
+		System.out.println("| AUTOMÓVEL\t\t\t"+				"BARCO\t\t\t"+				"AVIÂO");
+		System.out.println("| 1 - Ligar.\t\t\t"+			"7  - Ligar.\t\t"+			"13 - Ligar.");
+		System.out.println("| 2 - Desligar.\t\t\t"+  		"8  - Desligar.\t\t"+		"14 - Desligar.");
+		System.out.println("| 3 - Mover pra frente.\t\t"+   "9  - Mover pra frente.\t"+	"15 - Mover pra frente.");
+		System.out.println("| 4 - Mover de ré.\t\t"+		"10 - Mover de ré.\t"+		"16 - Mover de ré.");
+		System.out.println("| 5 - Passar marcha.\t\t"+	    "11 - Navegar.\t\t"+		"17 - Decolar.");
+		System.out.println("| 6 - Frear.\t\t\t"+			"12 - Ancorar.\t\t"+		"18 - Pousar.");
+		System.out.println("+----------------------------------------------------------------------------+");
+		System.out.printf("\nInforme sua opção (Digite 0 para encerrar o programa): ");
+	}
+}

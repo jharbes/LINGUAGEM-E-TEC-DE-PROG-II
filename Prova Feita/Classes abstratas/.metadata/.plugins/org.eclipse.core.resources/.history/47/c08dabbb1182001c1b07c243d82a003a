@@ -1,0 +1,9 @@
+package controller;
+import model.Default;
+
+public class Controller {
+
+	public static void main(String[] args) {
+		D
+	}
+}

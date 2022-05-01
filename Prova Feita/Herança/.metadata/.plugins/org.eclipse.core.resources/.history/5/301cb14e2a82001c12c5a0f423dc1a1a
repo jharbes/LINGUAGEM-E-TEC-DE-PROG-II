@@ -1,0 +1,10 @@
+package model;
+
+public class Aviao extends Veiculo {
+	public String registro_aeronautico;
+
+	public Aviao(String registro_aeronautico) {
+		super();
+		this.registro_aeronautico = registro_aeronautico;
+	}
+}

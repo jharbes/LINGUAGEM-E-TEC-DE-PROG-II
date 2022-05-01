@@ -1,0 +1,16 @@
+package model;
+
+public abstract class Publicacao {
+	public String titulo;
+	public String ano;
+	public String [] autores;
+	
+	public Publicacao(String titulo, String ano, String[] autores) {
+		super();
+		this.titulo = titulo;
+		this.ano = ano;
+		this.autores = autores;
+	}
+
+	public abstract String imprimirInformacoes();
+}

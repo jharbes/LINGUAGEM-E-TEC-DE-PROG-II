@@ -1,0 +1,197 @@
+package controller;
+
+import java.util.Scanner;
+
+public class Controller {
+	
+	static float life_BadFish=1, life_MadCat=1, life_MegaBob=1;	// INIMIGOS
+	public static void main(String[] args) {
+		@SuppressWarnings("resource")
+		Scanner ler = new Scanner(System.in);
+		int poder;
+
+		instrucoes();
+		System.out.println("\nO jogo começará em 10 segundos.");
+		//try { Thread.sleep (10000); } catch (InterruptedException ex) {}
+		
+		mostra_tela(3);
+		while(life_BadFish>0){
+			System.out.println("\nPoderes: [1] SuperBark - 10% de dano ");
+			System.out.printf("Informe o poder que deseja usar: ");
+			poder = ler.nextInt();
+			
+			switch(poder){
+				case 1:
+					life_BadFish = (float) (life_BadFish - 0.1);
+					break;
+				default:
+					System.out.println("\nOPÇÃO INVÁLIDA.");
+					try { Thread.sleep (2000); } catch (InterruptedException ex) {}
+					break;
+			}			
+			mostra_tela(1);
+		}
+		
+		mudanca_de_fase(2); // EXIBE MENSAGEM DE MUDANÇA DE FASE
+		
+		mostra_tela(2);
+		while(life_MadCat>0){
+			System.out.println("\nPoderes: [1] SuperBark - 10% de dano [2] EyeBeam - 30% de dano");
+			System.out.printf("Informe o poder que deseja usar: ");
+			poder = ler.nextInt();
+			
+			switch(poder){
+				case 1:
+					life_MadCat = (float) (life_MadCat - 0.1);
+					break;
+				case 2:
+					life_MadCat = (float) (life_MadCat - 0.3);
+					break;
+				default:
+					System.out.println("\nOPÇÃO INVÁLIDA.");
+					try { Thread.sleep (2000); } catch (InterruptedException ex) {}
+					break;
+			}
+			mostra_tela(2);
+		}
+		
+		mudanca_de_fase(3); // EXIBE MENSAGEM DE MUDANÇA DE FASE
+		
+		mostra_tela(3);
+		while(life_MegaBob>0.1){
+			System.out.println("\nPoderes: [1] SuperBark - 10% de dano [2] EyeBeam - 30% de dano [3] EyeBeam - 50% de dano");
+			System.out.printf("Informe o poder que deseja usar: ");
+			poder = ler.nextInt();
+			
+			switch(poder){
+				case 1:
+					life_MegaBob = (float) (life_MegaBob - 0.1);
+					break;
+				case 2:
+					life_MegaBob = (float) (life_MegaBob - 0.3);
+					break;
+				case 3:
+					life_MegaBob = (float) (life_MegaBob - 0.5);
+					break;
+				default:
+					System.out.println("\nOPÇÃO INVÁLIDA.");
+					try { Thread.sleep (2000); } catch (InterruptedException ex) {}
+					break;
+			}
+			if(life_MegaBob>0.1)
+				mostra_tela(3);
+			else
+				mensagem_fimdejogo();
+		}
+	}
+	
+	public static void mensagem_fimdejogo(){
+		System.out.println("\n*********************************************");
+		System.out.println("* PARABÉNS, VOCÊ DERROTOU  OS TRÊS INIMIGOS *");
+		System.out.println(
+				"\n.............................................\n"+
+				"........(....\\.................../....)......\r\n"
+				+ ".........\\....\\................ /..../.......\r\n"
+				+ "..........\\....\\.............../..../........\r\n"
+				+ "...........\\..../´¯.|.¯`\\./.../..............\r\n"
+				+ ".........../... |....|.... (¯ `\\.............\r\n"
+				+ "..........|.....|´¯.|´¯.|\\....\\..............\r\n"
+				+ "..........\\......` ¯..¯ ´......•.............\r\n"
+				+ "...........\\_ ............ _.•...............");
+		System.out.println("\n*********************************************");
+	}
+	
+	public static void mudanca_de_fase(int fase) {
+		System.out.println("\n*******************************");
+		System.out.println("* PARABÉNS, INIMIGO DERROTADO *");
+		System.out.println("*     VAMOS PARA A "+fase+"ª FASE    *");
+		System.out.println("*******************************");
+		try { Thread.sleep (2000); } catch (InterruptedException ex) {}
+	}
+	
+	public static void instrucoes() {
+		System.out.println("\n*************************************************************************************************");
+		System.out.println("********************************** BEM VINDO AO JOGO SuperKATE **********************************");
+		System.out.println("*************************************************************************************************\n");
+		System.out.println("INSTRUÇÕES: ");
+		System.out.println("1 - O jogo tem três fases.");
+		System.out.println("2 - A cada fase você ganha um poder diferente.");
+		System.out.println("3 - Em cada uma das fases você enfrentará um inimigo diferente.");
+		System.out.println("4 - Na primeira fase você tem apenas um poder.");
+	}
+	
+	public static void mostra_tela(int fase) {
+		System.out.println("\n***********************************************************************************************************");
+		System.out.println("********************************** BEM VINDO AO JOGO SuperKATE - "+fase+"ª FASE **********************************");
+		System.out.println("***********************************************************************************************************\n");
+		
+		switch(fase){
+			case 1:primeira_fase();
+			break;
+			case 2:segunda_fase();
+			break;
+			case 3:terceira_fase();
+			break;
+		}
+	}
+	
+	public static void primeira_fase() {
+		float aux;
+		if(life_BadFish>0) aux = life_BadFish*100;
+		else aux = 0;
+		System.out.println("-----------------------------------------------------------------------------------------------------------");
+		System.out.println("-----------------------------------------------------------------------------------------------------------");
+		System.out.printf("-------------------------------------------------------------------------- BadFish - %.0f%% -----------------\n",aux);
+		System.out.println("-----------------------------------------------------------------------------------------------------------");
+		System.out.println("---------------------------------------------------------------------------- (o)__(o) ---------------------");
+		System.out.println("-------- _/﹋\\_ ------------------------------------------------------------ (__  __) ---------------------");
+		System.out.println("-------- (҂`_´)  ------------------------------------------------------------- (  ) -----------------------");
+		System.out.println("-------- <,︻╦╤─ ҉ ҉ ----------------------------------------------------------- )( ------------------------");
+		System.out.println("--------- /﹋\\ ---------------------------------------------------------------- (  ) ----------------------");
+		System.out.println("------- _/----\\_ -------------------------------------------------------------- )( ------------------------");
+		System.out.println("------------------------------------------------------------------------------ (  ) -----------------------");
+		System.out.println("-----------------------------------------------------------------------------------------------------------");
+	}
+	
+	public static void segunda_fase() {
+		float aux;
+		if(life_MadCat>0) aux = life_MadCat*100;
+		else aux = 0;
+		
+		System.out.println("-----------------------------------------------------------------------------------------------------------");
+		System.out.println("-----------------------------------------------------------------------------------------------------------");
+		System.out.printf("-------------------------------------------------------------------------- MadCat - %.0f%% -----------------\n",aux);
+		System.out.println("-----------------------------------------------------------------------------------------------------------");
+		System.out.println("-------- _/﹋\\_ -------------------------------------------------------------W  W ------------------------");
+		System.out.println("-------- (҂`_´)  ----------------------------------------------------------- (O)(O) -----------------------");
+		System.out.println("-------- <,︻╦╤─ ҉ ҉ ҉ -------------------------------------------------------- ||--------------------------");
+		System.out.println("--------- /﹋\\ ----------------------------------------------------------------| \\-------------------------");
+		System.out.println("------- _/----\\_ ------------------------------------------------------------- |  `.----------------------");
+		System.out.println("------------------------------------------------------------------------------(.-.__)----------------------");
+		System.out.println("-------------------------------------------------------------------------------`-' ------------------------");
+		System.out.println("-----------------------------------------------------------------------------------------------------------");
+	}
+	
+	public static void terceira_fase(){
+		float aux;
+		if(life_MegaBob>0) aux = life_MegaBob*100;
+		else aux = 0;
+		
+		System.out.println("-----------------------------------------------------------------------------------------------------------");
+		System.out.println("-----------------------------------------------------------------------------------------------------------");
+		System.out.printf("------------------------------------------------------------------------- MegaBob - %.0f%% ------------------\n",aux);
+		System.out.println("-----------------------------------------------------------------------------------------------------------");
+		System.out.println("-------------------------------------------------------------------------- (O))  ((O) ---------------------");
+		System.out.println("--------------------------------------------------------------------------- ||    || ----------------------");
+		System.out.println("-------- _/﹋\\_ ----------------------------------------------------------  || /\\ || ----------------------");
+		System.out.println("-------- (҂`_´)  ---------------------------------------------------------- ||//\\\\|| ----------------------");
+		System.out.println("-------- <,︻╦╤─ ҉ ҉ ҉ ----------------------------------------------------- / /  \\ \\ ----------------------");
+		System.out.println("--------- /﹋\\ ------------------------------------------------------------ ( /    \\ ) ---------------------");
+		System.out.println("------- _/----\\_ ---------------------------------------------------------- )      ( ----------------------");
+		System.out.println("--------------------------------------------------------------------------- (      ) ----------------------");
+		System.out.println("---------------------------------------------------------------------------- \\    / -----------------------");
+		System.out.println("----------------------------------------------------------------------------- \\  / ------------------------");
+		System.out.println("------------------------------------------------------------------------------ OO -------------------------");
+		System.out.println("-----------------------------------------------------------------------------------------------------------");
+	}
+}
