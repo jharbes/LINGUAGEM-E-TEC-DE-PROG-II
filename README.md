@@ -1,4 +1,4 @@
-<img src="logo-java.png" align="right" width="300">
+<img src="logo-java.png" align="right" width="150">
 
 # LINGUAGEM-E-TEC-DE-PROG-II
 
