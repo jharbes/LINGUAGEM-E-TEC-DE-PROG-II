@@ -1,0 +1,24 @@
+Ação
+Animação
+Aventura
+Cinema de arte
+Chanchada
+Comédia
+Comédia romântica
+Comédia dramática
+Comédia de ação
+Dança
+Documentário
+Docuficção
+Drama
+Espionagem
+Faroeste
+Fantasia científica
+Ficção científica
+Filmes de guerra
+Filme policial
+Musical
+Romance
+Seriado
+Suspense
+Terror
