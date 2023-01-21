@@ -22,7 +22,7 @@ public class Program {
 		while (!chessMatch.getCheckMate()) {
 			try {
 				UI.clearScreen();
-				UI.printMatch(chessMatch,captured);
+				UI.printMatch(chessMatch, captured);
 				System.out.println();
 				System.out.print("Origem: ");
 				ChessPosition source = UI.readChessPosition(teclado);
@@ -35,9 +35,20 @@ public class Program {
 				ChessPosition target = UI.readChessPosition(teclado);
 
 				ChessPiece capturedPiece = chessMatch.performChessMove(source, target);
-				
+
 				if (capturedPiece != null)
 					captured.add(capturedPiece);
+
+				if (chessMatch.getPromoted() != null) {
+					System.out.print("Escolha a promocao para a peca (B/N/R/Q): ");
+					String type = teclado.nextLine().toUpperCase();
+					while (!type.equals("B") && !type.equals("N") && !type.equals("R") && !type.equals("Q")) {
+						System.out.print("Valor invalido! Escolha a promocao para a peca (B/N/R/Q): ");
+						type = teclado.nextLine().toUpperCase();
+					}
+					chessMatch.replacePromotedPiece(type);
+				}
+
 			} catch (ChessException e) {
 				System.out.println(e.getMessage());
 				teclado.nextLine();
