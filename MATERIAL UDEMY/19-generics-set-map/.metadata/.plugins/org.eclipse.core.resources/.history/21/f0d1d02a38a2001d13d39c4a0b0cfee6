@@ -1,0 +1,25 @@
+package model.services;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PrintService {
+
+	private List<Integer> list = new ArrayList<>();
+
+	public void addValue(int value) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void print() {
+		// TODO Auto-generated method stub
+
+	}
+
+	public String first() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.jharbes.springid.services;
+
+public class TaxService {
+
+}

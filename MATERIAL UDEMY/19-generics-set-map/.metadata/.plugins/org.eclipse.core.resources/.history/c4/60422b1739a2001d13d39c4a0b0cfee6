@@ -1,0 +1,27 @@
+package model.services;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PrintService {
+
+	private List<Integer> list = new ArrayList<>();
+
+	public void addValue(Integer value) {
+		// TODO Auto-generated method stub
+		list.add(value);
+	}
+
+	public void print() {
+		
+	}
+
+	public Integer first() {
+		// TODO Auto-generated method stub
+		if (list.isEmpty()) {
+			throw new IllegalStateException("A lista está vazia");
+		}
+		return list.get(0);
+	}
+
+}

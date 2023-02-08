@@ -1,0 +1,11 @@
+package model.entities;
+
+public class Circle implements Shape {
+
+	@Override
+	public Double area() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

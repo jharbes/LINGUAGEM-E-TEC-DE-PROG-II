@@ -15,7 +15,7 @@ public class Invoice {
 	}
 
 	public Double getTotalPayment() {
-		return this.getBasicPayment() - this.getTax();
+		return this.getBasicPayment() + this.getTax();
 	}
 
 	public Double getBasicPayment() {
@@ -34,4 +34,9 @@ public class Invoice {
 		this.tax = tax;
 	}
 
+	@Override
+	public String toString() {
+		return "Invoice [basicPayment=" + basicPayment + ", tax=" + tax + "]";
+	}
+	
 }

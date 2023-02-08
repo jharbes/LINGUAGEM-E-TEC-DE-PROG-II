@@ -1,0 +1,51 @@
+package model.application;
+
+import model.entities.Client;
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		/*
+		 * Equals Método que compara se o objeto é igual a outro, retornando true ou
+		 * false.
+		 */
+
+		String a = "Maria";
+		String b = "Alex";
+		String c = "Maria";
+
+		System.out.println(a.equals(b));
+		System.out.println(a.equals(a));
+		System.out.println(a == b);
+		System.out.println(a == c);
+
+		/*
+		 * HashCode Método que retorna um número inteiro representando um código gerado
+		 * a partir das informações do objeto, para objetos identicos serao gerados
+		 * hashcode identicos
+		 */
+
+		String a1 = "Maria";
+		String b1 = "Alex";
+		String c1 = "Maria";
+		System.out.println(a1.hashCode());
+		System.out.println(b1.hashCode());
+		System.out.println(c1.hashCode());
+
+		Client cli1 = new Client("Maria", "maria@gmail.com");
+		Client cli2 = new Client("Alex", "alex@gmail.com");
+		Client cli3 = new Client("Maria", "maria@gmail.com");
+
+		System.out.println(cli1.hashCode());
+		System.out.println(cli2.hashCode());
+		System.out.println(cli3.hashCode());
+
+		System.out.println(cli1.equals(cli2)); // false
+		System.out.println(cli1.equals(cli3)); // true
+
+		System.out.println(cli1 == cli3); // false, pois ele compara nao seu conteudo mas suas referencias de memoria,
+											// logo o resultado nao eh true
+	}
+
+}

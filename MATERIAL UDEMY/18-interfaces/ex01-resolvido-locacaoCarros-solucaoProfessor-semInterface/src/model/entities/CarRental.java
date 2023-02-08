@@ -54,5 +54,12 @@ public class CarRental {
 	public void setFinish(LocalDateTime finish) {
 		this.finish = finish;
 	}
+
+
+	@Override
+	public String toString() {
+		return "CarRental [start=" + start + ", finish=" + finish + ", vehicle=" + vehicle + ", invoice=" + invoice
+				+ "]";
+	}
 	
 }

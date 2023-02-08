@@ -1,0 +1,5 @@
+package com.jharbes.layersPractice.entities;
+
+public class User {
+
+}

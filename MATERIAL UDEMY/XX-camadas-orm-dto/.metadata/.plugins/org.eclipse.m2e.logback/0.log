@@ -1,0 +1,92 @@
+2023-02-06 14:21:16,297 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-02-06 14:25:00,667 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jharbes:layersPractice:0.0.1-SNAPSHOT @ C:\Users\Jorge\Desktop\Udemy\JAVA-POO-PROJETOS-NA\XX-camadas-orm-dto\layersPractice\pom.xml.
+2023-02-06 14:25:03,041 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /layersPractice/src/main/java
+2023-02-06 14:25:03,042 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /layersPractice/src/main/resources
+2023-02-06 14:25:03,054 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /layersPractice/src/main/resources
+2023-02-06 14:25:03,061 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /layersPractice/src/test/java
+2023-02-06 14:25:05,380 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 5 sec
+2023-02-06 14:25:05,385 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-02-06 14:25:05,771 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jharbes:layersPractice:0.0.1-SNAPSHOT @ C:\Users\Jorge\Desktop\Udemy\JAVA-POO-PROJETOS-NA\XX-camadas-orm-dto\layersPractice\pom.xml.
+2023-02-06 14:25:06,980 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /layersPractice/src/main/java
+2023-02-06 14:25:06,981 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /layersPractice/src/main/resources
+2023-02-06 14:25:06,981 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /layersPractice/src/main/resources
+2023-02-06 14:25:06,982 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /layersPractice/src/test/java
+2023-02-06 14:25:07,765 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 1,00 sec, update config takes 0,00 sec 
+2023-02-06 14:43:58,125 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-02-06 14:53:26,981 [Worker-5: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jharbes:layersPractice:0.0.1-SNAPSHOT @ C:\Users\Jorge\Desktop\Udemy\JAVA-POO-PROJETOS-NA\XX-camadas-orm-dto\layersPractice\pom.xml.
+2023-02-06 14:53:27,813 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-06 14:53:27,834 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-06 14:53:27,838 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Jorge\Desktop\Udemy\JAVA-POO-PROJETOS-NA\XX-camadas-orm-dto\layersPractice\src\test\resources
+2023-02-06 14:53:29,553 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-06 14:53:29,557 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-06 14:53:29,561 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Jorge\Desktop\Udemy\JAVA-POO-PROJETOS-NA\XX-camadas-orm-dto\layersPractice\src\test\resources
+2023-02-06 14:56:03,907 [Worker-9: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jharbes:layersPractice:0.0.1-SNAPSHOT @ C:\Users\Jorge\Desktop\Udemy\JAVA-POO-PROJETOS-NA\XX-camadas-orm-dto\layersPractice\pom.xml.
+2023-02-06 14:56:04,565 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-06 14:56:04,566 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-06 14:56:04,570 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Jorge\Desktop\Udemy\JAVA-POO-PROJETOS-NA\XX-camadas-orm-dto\layersPractice\src\test\resources
+2023-02-06 14:56:05,965 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-06 14:56:05,993 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-06 14:56:05,997 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Jorge\Desktop\Udemy\JAVA-POO-PROJETOS-NA\XX-camadas-orm-dto\layersPractice\src\test\resources
+2023-02-06 14:59:11,599 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-06 14:59:11,644 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-06 14:59:11,649 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Jorge\Desktop\Udemy\JAVA-POO-PROJETOS-NA\XX-camadas-orm-dto\layersPractice\src\test\resources
+2023-02-06 15:00:31,115 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-06 15:00:31,129 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-06 15:00:31,143 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Jorge\Desktop\Udemy\JAVA-POO-PROJETOS-NA\XX-camadas-orm-dto\layersPractice\src\test\resources
+2023-02-06 15:00:35,684 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-06 15:00:35,712 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-06 15:00:35,715 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Jorge\Desktop\Udemy\JAVA-POO-PROJETOS-NA\XX-camadas-orm-dto\layersPractice\src\test\resources
+2023-02-06 15:01:51,195 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-06 15:01:51,201 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-06 15:01:51,205 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Jorge\Desktop\Udemy\JAVA-POO-PROJETOS-NA\XX-camadas-orm-dto\layersPractice\src\test\resources
+2023-02-06 15:03:56,211 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-06 15:03:56,220 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-06 15:03:56,224 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Jorge\Desktop\Udemy\JAVA-POO-PROJETOS-NA\XX-camadas-orm-dto\layersPractice\src\test\resources
+2023-02-06 15:04:25,104 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-06 15:04:25,192 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-06 15:04:25,217 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Jorge\Desktop\Udemy\JAVA-POO-PROJETOS-NA\XX-camadas-orm-dto\layersPractice\src\test\resources
+2023-02-06 15:09:42,102 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-06 15:09:42,107 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-06 15:09:42,111 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Jorge\Desktop\Udemy\JAVA-POO-PROJETOS-NA\XX-camadas-orm-dto\layersPractice\src\test\resources
+2023-02-06 15:21:52,205 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-06 15:21:52,220 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-06 15:21:52,223 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Jorge\Desktop\Udemy\JAVA-POO-PROJETOS-NA\XX-camadas-orm-dto\layersPractice\src\test\resources
+2023-02-06 15:22:05,529 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-06 15:22:05,536 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-06 15:22:05,540 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Jorge\Desktop\Udemy\JAVA-POO-PROJETOS-NA\XX-camadas-orm-dto\layersPractice\src\test\resources
+2023-02-06 15:23:50,873 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-06 15:23:50,930 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-06 15:23:50,939 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Jorge\Desktop\Udemy\JAVA-POO-PROJETOS-NA\XX-camadas-orm-dto\layersPractice\src\test\resources
+2023-02-06 15:24:04,516 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-06 15:24:04,522 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-06 15:24:04,526 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Jorge\Desktop\Udemy\JAVA-POO-PROJETOS-NA\XX-camadas-orm-dto\layersPractice\src\test\resources
+2023-02-06 15:26:19,442 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-06 15:26:19,451 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-06 15:26:19,455 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Jorge\Desktop\Udemy\JAVA-POO-PROJETOS-NA\XX-camadas-orm-dto\layersPractice\src\test\resources
+2023-02-06 15:26:56,550 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-06 15:26:56,554 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-06 15:26:56,558 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Jorge\Desktop\Udemy\JAVA-POO-PROJETOS-NA\XX-camadas-orm-dto\layersPractice\src\test\resources
+2023-02-06 15:29:18,234 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-06 15:29:18,241 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-06 15:29:18,243 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Jorge\Desktop\Udemy\JAVA-POO-PROJETOS-NA\XX-camadas-orm-dto\layersPractice\src\test\resources
+2023-02-06 15:30:08,642 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-06 15:30:08,642 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-06 15:30:08,646 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Jorge\Desktop\Udemy\JAVA-POO-PROJETOS-NA\XX-camadas-orm-dto\layersPractice\src\test\resources
+2023-02-06 15:31:09,340 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-06 15:31:09,347 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-06 15:31:09,352 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Jorge\Desktop\Udemy\JAVA-POO-PROJETOS-NA\XX-camadas-orm-dto\layersPractice\src\test\resources
+2023-02-06 15:33:20,468 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-06 15:33:20,469 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-06 15:33:20,473 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Jorge\Desktop\Udemy\JAVA-POO-PROJETOS-NA\XX-camadas-orm-dto\layersPractice\src\test\resources
+2023-02-06 15:34:27,692 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-06 15:34:27,693 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-06 15:34:27,697 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Jorge\Desktop\Udemy\JAVA-POO-PROJETOS-NA\XX-camadas-orm-dto\layersPractice\src\test\resources
+2023-02-06 15:35:43,201 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-06 15:35:43,202 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-06 15:35:43,209 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Jorge\Desktop\Udemy\JAVA-POO-PROJETOS-NA\XX-camadas-orm-dto\layersPractice\src\test\resources
+2023-02-06 15:38:32,671 [Worker-8: Launching layersPractice - LayersPracticeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-06 15:38:32,672 [Worker-8: Launching layersPractice - LayersPracticeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-06 15:38:32,678 [Worker-8: Launching layersPractice - LayersPracticeApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Jorge\Desktop\Udemy\JAVA-POO-PROJETOS-NA\XX-camadas-orm-dto\layersPractice\src\test\resources
+2023-02-06 15:44:29,252 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-06 15:44:29,294 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-06 15:44:29,304 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Jorge\Desktop\Udemy\JAVA-POO-PROJETOS-NA\XX-camadas-orm-dto\layersPractice\src\test\resources

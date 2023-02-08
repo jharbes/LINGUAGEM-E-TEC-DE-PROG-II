@@ -1,0 +1,23 @@
+package model.services;
+
+import java.util.List;
+
+import model.entities.Product;
+
+public class CalculationService {
+
+	public static Double max(List<Product> list) {
+
+		if (list.isEmpty()) {
+			throw new IllegalStateException("A lista está vazia!");
+		}
+		Double max = list.get(0).getPrice();
+		for (Product item : list) {
+			if (item.getPrice().compareTo(max) > 0)
+				max = item.getPrice();
+		}
+
+		return max;
+	}
+
+}

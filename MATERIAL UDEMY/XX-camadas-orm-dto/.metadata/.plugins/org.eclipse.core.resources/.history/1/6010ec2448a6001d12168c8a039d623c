@@ -1,0 +1,5 @@
+package com.jharbes.layersPractice.repositories;
+
+public class UserRepository {
+
+}

@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+C:\Users\Jorge\Desktop\Udemy\JAVA-POO-PROJETOS-NA\19-generics-set-map\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
